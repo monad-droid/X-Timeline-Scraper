@@ -1,6 +1,5 @@
 'use strict';
 
-const _maxSaveNumber = 100;
 const _root = "https://x.com";
 // const _primaryContainer = document.querySelector("[data-testid=primaryColumn]");
 
@@ -94,9 +93,6 @@ function flushTweets() {
         }
       } else {
         // Add the new tweet to the existing tweets array
-        if (tweets.length >= _maxSaveNumber) {
-          tweets.shift();
-        }
         tweets.push(tweetToSave);
       }
     });
