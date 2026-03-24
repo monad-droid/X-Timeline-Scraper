@@ -57,7 +57,7 @@ export default [
 		plugins: plugins,
 	},
 	{
-		input: "src/pages/options/index.jsx",
+		input: "src/pages/Options/index.jsx",
 		output: [
 			{
 				file: "dist/options.bundle.cjs.js",

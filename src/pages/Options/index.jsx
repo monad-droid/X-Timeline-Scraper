@@ -392,7 +392,7 @@ function App() {
 									<EmptyHint key="bookmakred" />
 								)}
 							<p className="text-gray-500 py-2">
-								Total: {tweet.length}/100
+								Total: {tweet.length}
 							</p>
 							<Footer />
 						</section>

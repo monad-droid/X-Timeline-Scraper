@@ -326,7 +326,7 @@ function App() {
     key: "bookmakred"
   }), y("p", {
     className: "text-gray-500 py-2"
-  }, "Total: ", tweet.length, "/100"), y(Footer, null)), searchTerm.length > 0 && y("section", null, searchResults.filter(t => {
+  }, "Total: ", tweet.length), y(Footer, null)), searchTerm.length > 0 && y("section", null, searchResults.filter(t => {
     return t.bookmarked && activeTab == "Favorite" || activeTab != "Favorite";
   }).map(t => {
     return y(Tweet, {

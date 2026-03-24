@@ -931,7 +931,7 @@ preact-router@^4.1.0:
 
 preact@^10.16.0:
   version "10.16.0"
-  resolved "https://registry.npmmirror.com/preact/-/preact-10.16.0.tgz#68a06d70b191b8a313ea722d61e09c6b2a79a37e"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.16.0.tgz#68a06d70b191b8a313ea722d61e09c6b2a79a37e"
   integrity sha512-XTSj3dJ4roKIC93pald6rWuB2qQJO9gO2iLLyTe87MrjQN+HklueLsmskbywEWqCHlclgz3/M4YLL2iBr9UmMA==
 
 "react-dom@npm:@preact/compat", "react@npm:@preact/compat":
